@@ -1,41 +1,216 @@
 ﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>H&K CROCHETS - Home</title>
+    <title>H&K CROCHETS</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color:#fff6f0;
+        }
+
+        header{
+            background:#ff4c68;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        nav ul{
+            list-style:none;
+            display:flex;
+            justify-content:center;
+            gap:25px;
+            margin-top:15px;
+        }
+
+        nav a{
+            text-decoration:none;
+            color:white;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:#ffe066;
+        }
+
+        .hero{
+            text-align:center;
+            padding:50px;
+            background:#ffe066;
+        }
+
+        .hero h2{
+            margin-bottom:10px;
+            color:#333;
+        }
+
+        .hero p{
+            margin-bottom:20px;
+        }
+
+        .hero img{
+            width:300px;
+            height:300px;
+            object-fit:cover;
+            border-radius:15px;
+        }
+
+        .gallery-section{
+            padding:40px;
+        }
+
+        .gallery-section h2{
+            text-align:center;
+            color:#ff4c68;
+            margin-bottom:30px;
+        }
+
+        .gallery{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            gap:20px;
+        }
+
+        .gallery figure{
+            text-align:center;
+        }
+
+        .gallery img{
+            width:220px;
+            height:220px;
+            object-fit:cover;
+            border-radius:10px;
+            border:3px solid #ff4c68;
+        }
+
+        figcaption{
+            margin-top:10px;
+            font-weight:bold;
+        }
+
+        .about{
+            background:white;
+            padding:40px;
+            margin:30px;
+            border-radius:10px;
+        }
+
+        .about h2{
+            color:#ff4c68;
+            margin-bottom:15px;
+            text-align:center;
+        }
+
+        footer{
+            background:#333;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:30px;
+        }
+
+    </style>
 </head>
+
 <body>
-<body style="background-color: lightpink;">
-<h1> WELCOME TO H&K CROCHETS</H1>
 
-    <header>
-        
-        <nav>
-            <ul>
-             <li><a href="Home.html">Home</a></li>
-                <li><a href="About Us.html">About Us</a></li>
-                <li><a href="product.html">Products</a></li>
-                <li><a href="Enquiry.html">Enquiry</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <h1>H&K CROCHETS</h1>
 
-    <main>
-        <h2>Featured Products</h2>
-        <img src="images/BlueMarimba-BottleNeck.jpeg" alt="BlueMarimba-Bottleneck" width="200" height="300">
-        <img src="images/CaramelHat.jpeg"alt="CaramelHat" width="200" height="300">
-        <img src="images/Jamican-peace.jpg"alt="Jamaican-peace" width="200" height="300">
-        <img src="images/White Beanie.jpeg"alt="white Beanie" width="200" height="300">
-        <img src="images/PinkOver-CropShirt.jpeg"alt="PinkOver-CropShirt" width="200" height="300">
-        <img src="images/ClassicBlackHat.jpeg"alt="Classic blackHat " width="200" height="300">
-    </main>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Products</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+            <li><a href="contact.html">Contact</a></li>
+           
+        </ul>
+    </nav>
+</header>
 
-    <footer>
-        <p>&copy; 2026 H&K CROCHETS </p>
-    </footer>
+<section class="hero">
+    <h2>Handmade Crochet Fashion</h2>
+
+    <p>
+        Unique handmade hats, bags and customised crochet designs.
+    </p>
+
+
+</section>
+
+<section class="gallery-section">
+
+    <h2>Our Featured Collection</h2>
+
+    <div class="gallery">
+
+        <figure>
+            <img src="images/Crochet Hexagon cardigan (1).jpg"/>
+       
+            <figcaption>Crochet Tops</figcaption>
+        </figure>
+
+        <figure>
+            <img src= "images/blue hawaiian Hand Bag.jpg"/>
+           
+            <figcaption>Fashion Hand Bags</figcaption>
+        </figure>
+
+        <figure>
+        <img src= "images/Summer Bikini Top.jpg"/>
+            
+            <figcaption>Custom Design</figcaption>
+        </figure>
+
+        <figure>
+        <img src= "images/RedBox Long pants.jpg"/>
+            <figcaption>Crochet Bottoms</figcaption>
+        </figure>
+
+        <figure>
+
+            <img src= "images/Mustard Hair Clip.jpg"/>
+            <figcaption>Crochet Accesories </figcaption>
+        </figure>
+
+        <figure>
+        <img src ="C:\Users\junio\Pictures\WEBDEVELOP ASSIGNMENT\images\WhatsApp Image 2026-08-13 at 11.00.24 (3).jpeg"/>
+            <figcaption>Classic Crochet Style</figcaption>
+        </figure>
+
+    </div>
+
+</section>
+
+<section class="about">
+
+    <h2>Welcome to H&K CROCHETS</h2>
+
+    <p>
+        H&K CROCHETS specialises in handmade crochet clothing, hats,
+        bags and customised crochet designs.
+        We provide creative, high-quality products that allow customers
+        to express their individuality through unique handmade fashion.
+    </p>
+
+</section>
+
+<footer>
+    <p>&copy; 2026 H&K CROCHETS | Handmade With Love</p>
+</footer>
+
 </body>
 </html>
 
